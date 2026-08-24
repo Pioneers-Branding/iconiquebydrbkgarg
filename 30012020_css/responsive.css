@@ -1,0 +1,272 @@
+@media screen and (max-width: 640px) {
+header.head-main {
+    padding: 10px 0px 0px;
+}
+.text_heading h2:after {
+   content: "";
+    width: 280px;
+    height: 1px;
+    background: #D1AA4F;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.m-banner{display: block;}
+.bg-banner{display: none;}
+.navbar.navbar-dark.box-shadow {
+    /*background-color: rgba(0, 0, 0, 0.54);*/
+    top: 0px;
+    padding: 0;
+}
+
+div#tabs-content {
+    text-align: left;
+    padding: 15px 0px;
+}
+.inner_intro_box p::first-letter {
+    color: #fff;
+    float: left;
+    line-height: 0.9;
+    display: block;
+    font-size: 3em;
+       margin: 4px 5px -22px 0px;}
+       .intro_clinic {
+    background-image: url(../images/m-dr.bk.jpg);
+    margin-top: 50px;
+    background-size: contain;
+    padding: 14px 0;
+    background-position: top;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.text_heading h2 {
+    position: relative;
+    font-weight: 600;
+    top: 0px;
+    text-transform: capitalize;
+}
+.shedule_consult.new_shedule .box_head p {
+    padding: 10px 20px;
+}
+.box_img.tummy {
+    margin-bottom: 20px;
+}
+h2.head_h {
+    top: -28px;
+}
+.inner_intro_box {
+    background-color: #d1ad6c;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 281px;
+}
+.box_inner .text_box.text-center {
+    padding: 0px 40px;
+}
+.shedule_consult .box_head {
+    background-color: rgba(180, 151, 98, 0.95);
+    padding: 20px 0px;
+    color: #fff;
+    box-shadow: 0 0px 30px 0 rgba(32, 33, 36, 0.62);
+    margin-top: 100px;
+}
+.shedule_consult .box_head h2 {
+    font-size: 20px;
+}
+section.review.new_review .box {
+    padding: 20px;
+    margin-left: 0px;
+}
+.shedule_consult .box_head:before {
+    position: absolute;
+    content: "";
+    background: white;
+    width: 120px;
+    height: 86px;
+    left: 0px;
+    top: 80px;
+    z-index: 0;
+    display: none;
+    
+}
+.shedule_consult .box_head:after {
+    position: absolute;
+    content: "";
+    background: white;
+    width: 119px;
+    height: 86px;
+    right: 0px;
+    top: 80px;
+    z-index: 0;
+    display: none;
+    
+}
+.row_box_inner p::first-letter, .responsive-tabs p::first-letter{
+    color:#212529;
+    float:left;
+    line-height:1;
+    display:inline-block;
+    font-size:3em;
+    margin:0 10px 0 0
+}
+button.btn_consult {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+img.logo_custom {
+    z-index: 1111;
+    width: 150px;
+    padding: 0px !important;
+}
+a.nav-button.ml-auto.mr-4 {
+    margin-right: 0px !important;
+}
+section.why_choose .box {
+    text-align: center;
+    border: 1px solid #d1aa4f;
+    position: relative;
+    padding: 35px 20px 10px;
+    margin-bottom: 35px;
+}
+
+.text_heading h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+}
+section.find_procedure {
+    padding: 35px 0px;
+}
+.row_box {
+    margin-top: 35px;
+}
+
+.nav-tabs .nav-link {width: 40%;
+    padding: 16px; font-size: 14px; flex-basis: unset; margin-bottom: 1px;}
+    .nav-tabs .nav-link.active {padding: 16px;font-size: 14px; }
+    section.certificate img {
+    border: 3px solid #d1ad6c;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-image: url(../images/review-bg.jpg);
+    background-position: right;
+    background-size: cover;
+    padding: 50px 0px;
+    width: 100%;
+    color: #212529;
+    background-repeat: no-repeat;
+}
+section.review .box {
+    padding: 0px;
+     margin-left: 0px; 
+}
+
+section.result {
+    padding: 50px 0px;
+}
+section.result img {
+    margin-bottom: 50px;
+}
+.result .img_box {
+    border: 2px solid #d1ad6c;
+    width: 319px;
+    height: 207px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+section.blog_article {
+    margin-top: 0px;
+    padding: 20px 0px 50px;
+}
+.btn_result {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button.owl-next {
+    top: 75px;
+    right: 3px;
+    font-size: 30px;
+}
+button.owl-prev {
+    top: 75px;
+    left: -3px;
+    font-size: 30px;
+}
+.box_mid {
+    text-align: left;
+    margin: 50px 0px;
+}
+ul.link_social {
+    text-align: left;
+}
+.box-right {
+    text-align: left;
+}
+.right_text {
+    text-align: left;
+    margin-top: 20px;
+}
+.p-5 {
+    padding:5rem 0rem!important;
+}
+section.certificate button.owl-prev, section.certificate button.owl-next{
+    display: block !important;
+    top: 25px !important;
+}
+section.certificate {
+    margin-top: -16%;
+}
+.shedule_consult {
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+blockquote.blockquote.text-center {
+    padding: 20px 28px;
+}
+.row.contain_box {
+    padding: 0px 100px;
+}
+.review_contain .client-review-stars {
+    margin-bottom: 45px;
+}
+.arrow_btn {
+    background-color: #d1ad6c;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.box_inner .img_box {
+    padding: 0px 40px;
+}
+ul.list_content {
+    list-style: disc;
+    padding: 0px 20px;
+    line-height: 2;
+    text-align: left;
+}
+ul.sub_content {
+    list-style: disc;
+    padding-left: 20px;
+}
+ul.list_content.list_style {
+    list-style: none;
+    padding: 0px;
+}
+}
